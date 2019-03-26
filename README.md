@@ -7,3 +7,10 @@ Torbjoern Lager's 46 Simple Python Exercises
 Description found [here](http://easyprog99.blogspot.com/2017/02/46-simple-python-exercises.html).
 
 The original collection was created by [Torbjörn Lager](https://www.gu.se/english/about_the_university/staff/?languageId=100001&userId=xlagto).
+
+
+## Goal and contributing
+
+Will try to do 4 exercises a week in order to improve.
+
+I may not find the best solutions. Feel free to submit a pull request, issue or suggestion.
