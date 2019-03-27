@@ -1,6 +1,6 @@
 # 46-simple-python-exercises
 
-Torbjoern Lager's 46 Simple Python Exercises
+Torbjörn Lager's 46 Simple Python Exercises
 
 >This is version 0.45 of a collection of simple Python exercises constructed (but in many cases only found and collected) by Torbjörn Lager (torbjorn.lager@ling.gu.se). Most of them involve characters, words and phrases, rather than numbers, and are therefore suitable for students interested in language rather than math.
 
@@ -11,6 +11,6 @@ The original collection was created by [Torbjörn Lager](https://www.gu.se/engli
 
 ## Goal and contributing
 
-Will try to do 4 exercises a week in order to improve.
+Goal is to complete 4 exercises a week in order to improve.
 
 I may not find the best solutions. Feel free to submit a pull request, issue or suggestion.
