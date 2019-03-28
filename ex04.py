@@ -16,4 +16,4 @@ def is_vowel(char):
     False otherwise
     """
     vowels = ["a", "e", "i", "o", "u"]
-    return char in vowels
+    return char.lower() in vowels
