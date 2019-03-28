@@ -4,11 +4,11 @@ is nevertheless a good exercise.)"""
 
 def length(str):
     """
-    This function computes the length a given list or string
+    This function computes the length of a given list or string
 
     Parameters
     ----------
-    a list or a string
+    str (list or string)
 
     Returns
     ----------

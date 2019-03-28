@@ -8,7 +8,7 @@ def is_vowel(char):
 
     Parameters
     ----------
-    a character (string of length 1)
+    char (string  of length 1): a character
 
     Returns
     ----------
