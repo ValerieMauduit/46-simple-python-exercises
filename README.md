@@ -11,6 +11,6 @@ The original collection was created by [Torbjörn Lager](https://www.gu.se/engli
 
 ## Goal and contributing
 
-Goal is to complete 4 exercises a week in order to improve.
+Goal is to complete at least 4 exercises a week in order to improve.
 
 I may not find the best solutions. Feel free to submit a pull request, issue or suggestion.
