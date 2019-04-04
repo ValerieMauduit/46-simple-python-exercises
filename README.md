@@ -8,6 +8,9 @@ Description found [here](http://easyprog99.blogspot.com/2017/02/46-simple-python
 
 The original collection was created by [Torbjörn Lager](https://www.gu.se/english/about_the_university/staff/?languageId=100001&userId=xlagto).
 
+## Requirements
+
+TODO
 
 ## Goal and contributing
 
