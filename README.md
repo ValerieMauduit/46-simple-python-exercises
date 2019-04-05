@@ -10,12 +10,39 @@ Description found [here](http://easyprog99.blogspot.com/2017/02/46-simple-python
 
 The original collection was created by [Torbjörn Lager](https://www.gu.se/english/about_the_university/staff/?languageId=100001&userId=xlagto).
 
-## Requirements
+## Table of Contents
+
+- [Motivation](#motivation)
+- [Getting Started](#getting-started)
+	- [Prerequisites](#prerequisites)
+  - [Installing](#installing)
+- [Contributing](#contributing)
+
+## Motivation
+
+Goal is to complete at least 4 exercises a week in order to continue practicing Python programming and to continue improving.
+
+
+## Getting Started
+
+### Prerequisites
 
 TODO
 
-## Goal and contributing
+### Installing
 
-Goal is to complete at least 4 exercises a week in order to improve.
+
+1. In the terminal go to an appropriate folder where you want to clone this repo and run:
+```
+git clone https://github.com/rrsw/46-simple-python-exercises/
+```
+
+2. Then move to the newly created directory:
+```
+cd 46-simple-python-exercises/
+```
+
+
+## Contributing
 
 I may not find the best solutions. Feel free to submit a pull request, issue or suggestion.
