@@ -13,10 +13,27 @@ The original collection was created by [Torbjörn Lager](https://www.gu.se/engli
 ## Table of Contents
 
 - [Motivation](#motivation)
+- [Exercises](#exercises)
 - [Getting Started](#getting-started)
 	- [Prerequisites](#prerequisites)
-  - [Installing](#installing)
+	- [Installing](#installing)
+- [Test](#test)
 - [Contributing](#contributing)
+
+## Exercises
+
+| ex. 0-10 | ex. 10-20 | ex. 20-30 | ex. 30-40 | ex. 40-46 |
+| :--- | :--- | :--- | :--- | :--- |
+| [01 - max](ex01.py) |  |  |  |  |
+| [02 - max_of_three](ex02.py) |  |  |  |  |
+| [03 - len](ex03.py) |  |  |  |  |
+| [04 - vowel](ex04.py) |  |  |  |  |
+| [05 - translate](ex05.py) |  |  |  |  |
+| [06 - sum/multiply](ex06.py) |  |  |  |  |
+| [07 - reverse](ex07.py) |  |  |  |  |
+| [08 - palindrome](ex08.py) |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
 
 ## Motivation
 
@@ -27,7 +44,8 @@ Goal is to complete at least 4 exercises a week in order to continue practicing 
 
 ### Prerequisites
 
-TODO
+* Python (Python 3.3 or greater, or Python 2.7)
+* I also test my code in IPython
 
 ### Installing
 
@@ -42,6 +60,9 @@ git clone https://github.com/rrsw/46-simple-python-exercises/
 cd 46-simple-python-exercises/
 ```
 
+## Test
+
+Some lines are included at the end of the scripts so you can test them by uncommenting and changing the values.
 
 ## Contributing
 
