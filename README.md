@@ -12,8 +12,8 @@ The original collection was created by [Torbjörn Lager](https://www.gu.se/engli
 
 ## Table of Contents
 
-- [Motivation](#motivation)
 - [Exercises](#exercises)
+- [Motivation](#motivation)
 - [Getting Started](#getting-started)
 	- [Prerequisites](#prerequisites)
 	- [Installing](#installing)
