@@ -24,16 +24,16 @@ The original collection was created by [Torbjörn Lager](https://www.gu.se/engli
 
 | ex. 01-10 | ex. 11-20 | ex. 21-30 | ex. 31-40 | ex. 41-46 |
 | :--- | :--- | :--- | :--- | :--- |
-| [01 - max](ex01.py) | [11 - generate_n_chars](ex11.py) |  |  |  |
-| [02 - max_of_three](ex02.py) | [12 - histogram](ex12.py) |  |  |  |
-| [03 - len](ex03.py) | [13 - max_in_list](ex13.py) |  |  |  |
-| [04 - vowel](ex04.py) | [14 - words_to_len](ex14.py) |  |  |  |
-| [05 - translate](ex05.py) |  |  |  |  |
-| [06 - sum/multiply](ex06.py) |  |  |  |  |
-| [07 - reverse](ex07.py) |  |  |  |  |
-| [08 - palindrome](ex08.py) |  |  |  |  |
-| [09 - member](ex09.py) |  |  |  |  |
-| [10 - overlapping](ex10.py) |  |  |  |  |
+| [01 max](ex01.py) | [11 generate_n_chars](ex11.py) |  |  |  |
+| [02 max_of_three](ex02.py) | [12 histogram](ex12.py) |  |  |  |
+| [03 len](ex03.py) | [13 max_in_list](ex13.py) |  |  |  |
+| [04 vowel](ex04.py) | [14 words_to_len](ex14.py) |  |  |  |
+| [05 translate](ex05.py) |  |  |  |  |
+| [06 sum/multiply](ex06.py) |  |  |  |  |
+| [07 reverse](ex07.py) |  |  |  |  |
+| [08 palindrome](ex08.py) |  |  |  |  |
+| [09 member](ex09.py) |  |  |  |  |
+| [10 overlapping](ex10.py) |  |  |  |  |
 
 ## Motivation
 
