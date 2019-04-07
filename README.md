@@ -45,7 +45,6 @@ Goal is to complete at least 4 exercises a week in order to continue practicing 
 ### Prerequisites
 
 * Python (Python 3.3 or greater, or Python 2.7)
-* I also test my code in IPython
 
 ### Installing
 
@@ -59,6 +58,8 @@ git clone https://github.com/rrsw/46-simple-python-exercises/
 ```
 cd 46-simple-python-exercises/
 ```
+
+I also test my code in [IPython](https://ipython.org/install.html) during writing process.
 
 ## Test
 
