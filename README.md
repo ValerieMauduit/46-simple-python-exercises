@@ -22,7 +22,7 @@ The original collection was created by [Torbjörn Lager](https://www.gu.se/engli
 
 ## Exercises
 
-| ex. 01-10 | ex. 10-20 | ex. 20-30 | ex. 30-40 | ex. 40-46 |
+| ex. 01-10 | ex. 11-20 | ex. 21-30 | ex. 31-40 | ex. 41-46 |
 | :--- | :--- | :--- | :--- | :--- |
 | [01 - max](ex01.py) | [11 - generate_n_chars](ex11.py) |  |  |  |
 | [02 - max_of_three](ex02.py) | [12 - histogram](ex12.py) |  |  |  |
