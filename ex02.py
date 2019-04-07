@@ -1,8 +1,8 @@
-"""Define a function max_of_three() that takes three numbers as arguments
-and returns the largest of them."""
+'''Define a function max_of_three() that takes three numbers as arguments
+and returns the largest of them.'''
 
 def max_of_three(n1, n2, n3):
-    """
+    '''
     This function takes three numbers as arguments and returns the largest of them
 
     Parameters
@@ -14,10 +14,16 @@ def max_of_three(n1, n2, n3):
     Returns
     ----------
     The largest of the three numbers
-    """
+    '''
     if n1 > n2 and n1 > n3:
         return n1
     elif n2 > n3:
         return n2
     else:
         return n3
+
+'''Uncomment the following lines to test the function and try to change the
+numbers passed to the max_of_three() function.'''
+
+# print('{} is the largest number'.format(max_of_three(2, 6, 42)))
+# print('{} is the largest number'.format(max_of_three(10.8, 5.4, 0.1)))
