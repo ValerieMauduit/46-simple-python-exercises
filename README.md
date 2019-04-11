@@ -29,8 +29,8 @@ The original collection was created by [Torbjörn Lager](https://www.gu.se/engli
 |[03 len](ex03.py)|[13 max_in_list](ex13.py)|  |  |  |
 |[04 vowel](ex04.py)|[14 words_to_len](ex14.py)|  |  |  |
 |[05 translate](ex05.py)|[15 longest_word](ex15.py)|  |  |  |
-|[06 sum/multiply](ex06.py)|[16 filter_long_words](ex16.py)|  |  |  |
-|[07 reverse](ex07.py)|  |  |  |  |
+|[06 sum+multiply](ex06.py)|[16 filter_long_words](ex16.py)|  |  |  |
+|[07 reverse](ex07.py)|[17 phrase_palindrome](ex17.py)|  |  |  |
 |[08 palindrome](ex08.py)|  |  |  |  |
 |[09 member](ex09.py) | |  |  |  |
 |[10 overlapping](ex10.py)|  |  |  |  |
