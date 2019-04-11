@@ -18,8 +18,8 @@ def filter_long_words(lst, n):
   '''
   return [w for w in lst if length(w) > n]
 
-# '''Uncomment the following lines to test the function and try to change the
-# the list and the length passed to the filter_long_words() function.'''
+'''Uncomment the following lines to test the function and try to change the
+the list and the length passed to the filter_long_words() function.'''
 
 # lst1 = ['I', 'want', 'to', 'travel', 'to', 'Cambodia']
 # lst2 = ['Python', 'is', 'cool']
