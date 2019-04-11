@@ -66,7 +66,7 @@ Some lines are included at the end of the scripts so you can test them by uncomm
 
 ## Acknowledgements
 
-The original collection was created by [Torbjörn Lager](https://www.gu.se/english/about_the_university/staff/?languageId=100001&userId=xlagto).
+The original collection was constructed, but also found and collected by [Torbjörn Lager](https://www.gu.se/english/about_the_university/staff/?languageId=100001&userId=xlagto).
 
 ## Contributing
 
