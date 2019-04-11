@@ -10,7 +10,7 @@ Description found [here](http://easyprog99.blogspot.com/2017/02/46-simple-python
 
 ## Table of Contents
 
-- [Exercises](#exercises)
+- [Exercise list](#exercise-list)
 - [Motivation](#motivation)
 - [Getting Started](#getting-started)
 	- [Prerequisites](#prerequisites)
@@ -19,7 +19,7 @@ Description found [here](http://easyprog99.blogspot.com/2017/02/46-simple-python
 - [Acknowledgements](#acknowledgements)
 - [Contributing](#contributing)
 
-## Exercises
+## Exercise list
 
 |ex. 01-10|ex. 11-20|ex. 21-30|ex. 31-40|ex. 41-46|
 |:---|:---|:---|:---|:---|
