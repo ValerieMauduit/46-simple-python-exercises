@@ -8,8 +8,6 @@ Torbjörn Lager's 46 Simple Python Exercises
 
 Description found [here](http://easyprog99.blogspot.com/2017/02/46-simple-python-exercises.html).
 
-The original collection was created by [Torbjörn Lager](https://www.gu.se/english/about_the_university/staff/?languageId=100001&userId=xlagto).
-
 ## Table of Contents
 
 - [Exercises](#exercises)
@@ -18,22 +16,23 @@ The original collection was created by [Torbjörn Lager](https://www.gu.se/engli
 	- [Prerequisites](#prerequisites)
 	- [Installing](#installing)
 - [Test](#test)
+- [Acknowledgements](#acknowledgements)
 - [Contributing](#contributing)
 
 ## Exercises
 
 |ex. 01-10|ex. 11-20|ex. 21-30|ex. 31-40|ex. 41-46|
 |:---|:---|:---|:---|:---|
-|[01 max](ex01.py)|[11 generate_n_chars](ex11.py)|  |  |  |
+|[01 max](ex01.py)|[11 generate_n_chars](ex11.py)||  |  |
 |[02 max_of_three](ex02.py)|[12 histogram](ex12.py)|  |  |  |
 |[03 len](ex03.py)|[13 max_in_list](ex13.py)|  |  |  |
 |[04 vowel](ex04.py)|[14 words_to_len](ex14.py)|  |  |  |
 |[05 translate](ex05.py)|[15 longest_word](ex15.py)|  |  |  |
 |[06 sum+multiply](ex06.py)|[16 filter_long_words](ex16.py)|  |  |  |
 |[07 reverse](ex07.py)|[17 phrase_palindrome](ex17.py)|  |  |  |
-|[08 palindrome](ex08.py)|  |  |  |  |
-|[09 member](ex09.py) | |  |  |  |
-|[10 overlapping](ex10.py)|  |  |  |  |
+|[08 palindrome](ex08.py)|[18 pangram](ex18.py)|  |  |  |
+|[09 member](ex09.py) |[19 beer](ex19.py)|  |  |  |
+|[10 overlapping](ex10.py)|[20 translate](ex20.py)|  |  |  |
 
 ## Motivation
 
@@ -64,6 +63,10 @@ I also test my code in [IPython](https://ipython.org/install.html) during writin
 ## Test
 
 Some lines are included at the end of the scripts so you can test them by uncommenting and changing the values.
+
+## Acknowledgements
+
+The original collection was created by [Torbjörn Lager](https://www.gu.se/english/about_the_university/staff/?languageId=100001&userId=xlagto).
 
 ## Contributing
 
