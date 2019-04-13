@@ -1,4 +1,4 @@
-"""In cryptography, a Caesar cipher is a very simple encryption techniques in
+'''In cryptography, a Caesar cipher is a very simple encryption techniques in
 which each letter in the plain text is replaced by a letter some fixed number of
 positions down the alphabet. For example, with a shift of 3, A would be replaced
 by D, B would become E, and so on. The method is named after Julius Caesar,
@@ -20,7 +20,7 @@ Once you're done, you will be able to read the following secret message:
    Pnrfne pvcure? V zhpu cersre Pnrfne fnynq!
 
 Note that since English has 26 characters, your ROT-13 program will be able to
-both encode and decode texts written in English."""
+both encode and decode texts written in English.'''
 
 import string
 
