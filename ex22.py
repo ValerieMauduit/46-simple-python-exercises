@@ -26,7 +26,7 @@ import string
 
 def merge_dicts(d1, d2):
     '''
-    This function takes two dictionaries and concatenate them
+    This function takes two dictionaries and merges them
 
     Parameters
     ----------
