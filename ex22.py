@@ -61,8 +61,6 @@ def create_key(n):
     d1 = dict(zip(lower_lst, lower_lst2))
     d2 = dict(zip(upper_lst, upper_lst2))
 
-    d = d1.copy()
-    d.update(d2)
     return merge_dicts(d1, d2)
 
 
