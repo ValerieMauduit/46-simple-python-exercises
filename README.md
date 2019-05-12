@@ -1,4 +1,4 @@
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Build Status](https://travis-ci.org/rrsw/46-simple-python-exercises.svg?branch=master)](https://travis-ci.org/rrsw/46-simple-python-exercises)
 
 # 46-simple-python-exercises
 
@@ -62,7 +62,7 @@ I also test my code in [IPython](https://ipython.org/install.html) during writin
 
 ## Test
 
-Some lines are included at the end of the scripts so you can test them by uncommenting and changing the values.
+I wrote some automated tests for each exercises. My tests are quite simple for the moments. Don't hesitate to use them.
 
 ## Acknowledgements
 
