@@ -62,10 +62,27 @@ I also test my code in [IPython](https://ipython.org/install.html) during writin
 
 ## Test
 
-I wrote some automated tests for each exercise. My tests are quite simple for the moments. Don't hesitate to use them
+I wrote some automated tests for each exercise. My tests are quite simple for the moment. Don't hesitate to use them. You may need to modifiy the python test files if your layout, your function names and your source file names are different than mine.
 
-- [ ] Fix some errors
-- [ ] Add test12 and test19
+Below is my project layout:
+
+```
+├── __init__.py
+├── .travis.yml			# travis config
+├── test.py			# test script
+├── /srcs			# directory to group all the source files
+│   ├── __init__.py
+│   ├── ex01.py			# one file per exercise
+│   ├── ex02.py
+│   ├── ex03.py
+│   └── ...
+└── /test			# directory to group all the test files
+    ├── __init__.py
+    ├── test01.py		# one test file per exercise file
+    ├── test02.py
+    ├── test03.py
+    └── ...
+```
 
 ## Acknowledgements
 
