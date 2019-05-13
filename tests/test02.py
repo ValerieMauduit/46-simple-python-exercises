@@ -16,4 +16,4 @@ class TestMaxOfThree(unittest.TestCase):
     def test_bad_type(self):
         data = 'banana'
         with self.assertRaises(TypeError):
-            result = sum(data)
+            result = max_of_three(data)

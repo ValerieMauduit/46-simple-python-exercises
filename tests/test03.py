@@ -16,4 +16,4 @@ class TestLength(unittest.TestCase):
     def test_bad_type(self):
         data = 42
         with self.assertRaises(TypeError):
-            result = sum(data)
+            result = length(data)
