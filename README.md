@@ -62,7 +62,10 @@ I also test my code in [IPython](https://ipython.org/install.html) during writin
 
 ## Test
 
-I wrote some automated tests for each exercises. My tests are quite simple for the moments. Don't hesitate to use them.
+I wrote some automated tests for each exercise. My tests are quite simple for the moments. Don't hesitate to use them
+
+- [] Fix some errors
+- [] Add test12 and test19
 
 ## Acknowledgements
 
