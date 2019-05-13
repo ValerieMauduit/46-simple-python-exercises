@@ -64,8 +64,8 @@ I also test my code in [IPython](https://ipython.org/install.html) during writin
 
 I wrote some automated tests for each exercise. My tests are quite simple for the moments. Don't hesitate to use them
 
-- [] Fix some errors
-- [] Add test12 and test19
+- [ ] Fix some errors
+- [ ] Add test12 and test19
 
 ## Acknowledgements
 
