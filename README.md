@@ -76,7 +76,7 @@ Below is my project layout:
 │   ├── ex02.py
 │   ├── ex03.py
 │   └── ...
-└── /test			# directory to group all the test files
+└── /tests			# directory to group all the test files
     ├── __init__.py
     ├── test01.py		# one test file per exercise file
     ├── test02.py
