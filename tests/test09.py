@@ -5,6 +5,7 @@ sys.path = ['..', 'srcs']
 from ex09 import is_member
 
 class TestIsMember(unittest.TestCase):
+    
     def test_01(self):
         result = is_member('a', [0, 1, 2, 3, 4, 5])
         self.assertEqual(result, False)
@@ -20,4 +21,4 @@ class TestIsMember(unittest.TestCase):
     def test_bad_type(self):
         data = 'banana'
         with self.assertRaises(TypeError):
-            result = sum(data)
+            result = is_member(data)

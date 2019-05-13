@@ -1,5 +1,4 @@
-import unittest, sys
-
+import unittest
 from tests import *
 
 if __name__ == "__main__":

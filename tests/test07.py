@@ -5,6 +5,7 @@ sys.path = ['..', 'srcs']
 from ex07 import reverse
 
 class TestReverse(unittest.TestCase):
+
     def test_01(self):
         result = reverse('I am testing')
         self.assertEqual(result, 'gnitset ma I')
@@ -16,4 +17,4 @@ class TestReverse(unittest.TestCase):
     def test_bad_type(self):
         data = 42
         with self.assertRaises(TypeError):
-            result = sum(data)
+            result = reverse(data)

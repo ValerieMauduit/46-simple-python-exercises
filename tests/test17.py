@@ -5,6 +5,7 @@ sys.path = ['..', 'srcs']
 from ex17 import is_phrase_palindrome
 
 class TestIsPhrasePalindrome(unittest.TestCase):
+
     def test_01(self):
         result = is_phrase_palindrome("Go hang a salami I'm a lasagna hog.")
         self.assertEqual(result, True)
@@ -20,4 +21,4 @@ class TestIsPhrasePalindrome(unittest.TestCase):
     def test_bad_type(self):
         data = 42
         with self.assertRaises(TypeError):
-            result = sum(data)
+            result = is_phrase_palindrome(data)

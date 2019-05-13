@@ -5,6 +5,7 @@ sys.path = ['..', 'srcs']
 from ex01 import mymax
 
 class TestMax(unittest.TestCase):
+    
     def test_01(self):
         result = mymax(2, 8)
         self.assertEqual(result, 8)

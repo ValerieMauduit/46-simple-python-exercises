@@ -5,6 +5,7 @@ sys.path = ['..', 'srcs']
 from ex02 import max_of_three
 
 class TestMaxOfThree(unittest.TestCase):
+    
     def test_01(self):
         result = max_of_three(2, 6, 42)
         self.assertEqual(result, 42)

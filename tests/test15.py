@@ -5,6 +5,7 @@ sys.path = ['..', 'srcs']
 from ex15 import find_longest_word
 
 class TestLongestWord(unittest.TestCase):
+
     def test_01(self):
         result = find_longest_word(['I', 'want', 'to', 'travel', 'to', 'Cambodia'])
         self.assertEqual(result, 8)
@@ -14,6 +15,6 @@ class TestLongestWord(unittest.TestCase):
         self.assertEqual(result, 6)
 
     def test_bad_type(self):
-        data = 'banana'
+        data = 42
         with self.assertRaises(TypeError):
-            result = sum(data)
+            result = find_longest_word(data)

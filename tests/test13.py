@@ -5,6 +5,7 @@ sys.path = ['..', 'srcs']
 from ex13 import max_in_list
 
 class TestMaxInList(unittest.TestCase):
+
     def test_01(self):
         result = max_in_list([4, 9, 7, 12, 42, 5])
         self.assertEqual(result, 42)
@@ -16,4 +17,4 @@ class TestMaxInList(unittest.TestCase):
     def test_bad_type(self):
         data = 'banana'
         with self.assertRaises(TypeError):
-            result = sum(data)
+            result = max_in_list(data)

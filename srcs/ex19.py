@@ -13,19 +13,26 @@ Your task here is write a Python program capable of generating all the verses
 of the song.
 '''
 
-def main():
+def beer():
     n = 99
+    song = ""
 
     while n > 1:
-        print(
-        "{} bottles of beer on the wall, {} bottles of beer.\nTake one down, \
-pass it around, {} {} of beer on the wall.\n"
-.format(n, n, n-1, "bottles" if n-1 > 1 else "bottle"))
+        song += """{} bottles of beer on the wall, {} bottles of beer.\n\
+Take one down, pass it around, {} {} of beer on the wall.\n\n""".\
+        format(n, n, n-1, "bottles" if n-1 > 1 else "bottle")
         n -= 1
-    return print("""1 bottle of beer on the wall, 1 bottle of beer.
-Take one down and pass it around, no more bottles of beer on the wall.\n
-No more bottles of beer on the wall, no more bottles of beer.
-Go to the store and buy some more, 99 bottles of beer on the wall.""")
+    song += """1 bottle of beer on the wall, 1 bottle of beer.\n\
+Take one down and pass it around, no more bottles of beer on the wall.\n\n\
+No more bottles of beer on the wall, no more bottles of beer.\n\
+Go to the store and buy some more, 99 bottles of beer on the wall."""
+
+    return song
+
+def main():
+    song = beer()
+
+    return print(song)
 
 if __name__ == '__main__':
     main()

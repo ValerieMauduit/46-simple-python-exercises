@@ -5,6 +5,7 @@ sys.path = ['..', 'srcs']
 from ex03 import length
 
 class TestLength(unittest.TestCase):
+    
     def test_01(self):
         result = length('Hello world!')
         self.assertEqual(result, 12)

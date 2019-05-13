@@ -5,6 +5,7 @@ sys.path = ['..', 'srcs']
 from ex18 import is_pangram
 
 class TestIsPangram(unittest.TestCase):
+
     def test_01(self):
         result = is_pangram("The quick brown fox jumps over the lazy dog")
         self.assertEqual(result, True)
@@ -16,4 +17,4 @@ class TestIsPangram(unittest.TestCase):
     def test_bad_type(self):
         data = 42
         with self.assertRaises(TypeError):
-            result = sum(data)
+            result = is_pangram(data)

@@ -5,6 +5,7 @@ sys.path = ['..', 'srcs']
 from ex21 import char_freq
 
 class TestCharFreq(unittest.TestCase):
+
     def test_01(self):
         result = char_freq('abbabcbdbabdbdbabababcbcbab')
         self.assertEqual(result, {'a': 7, 'b': 14, 'c': 3, 'd': 3})
@@ -16,4 +17,4 @@ class TestCharFreq(unittest.TestCase):
     def test_bad_type(self):
         data = 42
         with self.assertRaises(TypeError):
-            result = sum(data)
+            result = char_freq(data)
