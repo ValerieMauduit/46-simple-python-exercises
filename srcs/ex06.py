@@ -3,7 +3,7 @@ that sums and multiplies (respectively) all the numbers in a list of numbers.
 For example, sum([1, 2, 3, 4]) should return 10,
 and multiply([1, 2, 3, 4]) should return 24.
 
-I renamed sum() as mysum() to avoid conflict with the buil-in function.'''
+I renamed sum() as mysum() to avoid conflict with the built-in function.'''
 
 def mysum(nbrs):
     '''
