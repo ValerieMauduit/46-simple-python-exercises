@@ -13,3 +13,13 @@ class TestIsVowel(unittest.TestCase):
     def test_02(self):
         result = is_vowel('b')
         self.assertEqual(result, False)
+
+    def test_bad_type(self):
+        data = 42
+        with self.assertRaises(TypeError):
+            result = is_vowel(data)
+
+    def test_bad_len(self):
+        data = 'banana'
+        with self.assertRaises(ValueError):
+            result = is_vowel(data)

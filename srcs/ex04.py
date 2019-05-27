@@ -16,4 +16,6 @@ def is_vowel(char):
     False otherwise
     '''
     vowels = ['a', 'e', 'i', 'o', 'u']
+    if len(char) > 1:
+        raise ValueError('This function requires a character (string of size 1).')
     return char.lower() in vowels
