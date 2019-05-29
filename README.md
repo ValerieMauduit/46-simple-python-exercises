@@ -26,8 +26,8 @@ Description found [here](http://easyprog99.blogspot.com/2017/02/46-simple-python
 |[01 max](srcs/ex01.py)|[11 generate_n_chars](srcs/ex11.py)|[21 char_freq](srcs/ex21.py)|  |  |
 |[02 max_of_three](srcs/ex02.py)|[12 histogram](ex12.py)|[22 caesar_cipher](srcs/ex22.py)|  |  |
 |[03 len](srcs/ex03.py)|[13 max_in_list](srcs/ex13.py)|[23 correct](srcs/ex23.py)|  |  |
-|[04 vowel](srcs/ex04.py)|[14 words_to_len](srcs/ex14.py)|  |  |  |
-|[05 translate](srcs/ex05.py)|[15 longest_word](srcs/ex15.py)|  |  |  |
+|[04 vowel](srcs/ex04.py)|[14 words_to_len](srcs/ex14.py)|[24 3sg_form](srcs/ex24.py)|  |  |
+|[05 translate](srcs/ex05.py)|[15 longest_word](srcs/ex15.py)|[25 ing_form](srcs/ex25.py)|  |  |
 |[06 sum+multiply](srcs/ex06.py)|[16 filter_long_words](srcs/ex16.py)|  |  |  |
 |[07 reverse](srcs/ex07.py)|[17 phrase_palindrome](srcs/ex17.py)|  |  |  |
 |[08 palindrome](srcs/ex08.py)|[18 pangram](srcs/ex18.py)|  |  |  |
