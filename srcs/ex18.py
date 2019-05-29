@@ -5,20 +5,20 @@ a pangram or not.'''
 
 
 def is_pangram(str):
-    '''
-    This function recognizes pangrams
-    (i.e. a sentence that contains all the letters of the English alphabet
-    at least once)
+	'''
+	This function recognizes pangrams
+	(i.e. a sentence that contains all the letters of the English alphabet
+	at least once)
 
-    Parameters
-    ----------
-    str (string)
+	Parameters
+	----------
+	str (string)
 
-    Returns
-    ----------
-    True if the sentence is a pangram
-    False otherwise
-    '''
-    phrase = [i.lower() for i in str if i.isalpha()]
-    clean = set(phrase)
-    return len(clean) == 26
+	Returns
+	----------
+	True if the sentence is a pangram
+	False otherwise
+	'''
+	phrase = [i.lower() for i in str if i.isalpha()]
+	clean = set(phrase)
+	return len(clean) == 26

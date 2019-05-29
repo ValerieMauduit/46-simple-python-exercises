@@ -206,7 +206,7 @@ No more bottles of beer on the wall, no more bottles of beer.\n\
 Go to the store and buy some more, 99 bottles of beer on the wall."""
 
 class TestBeer(unittest.TestCase):
-    
-    def test_01(self):
-        result = beer()
-        self.assertEqual(result, poem)
+
+	def test_01(self):
+		result = beer()
+		self.assertEqual(result, poem)

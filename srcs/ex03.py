@@ -3,18 +3,18 @@
 is nevertheless a good exercise.)'''
 
 def length(str):
-    '''
-    This function computes the length of a given list or string
+	'''
+	This function computes the length of a given list or string
 
-    Parameters
-    ----------
-    str (list or string)
+	Parameters
+	----------
+	str (list or string)
 
-    Returns
-    ----------
-    The length (int)
-    '''
-    length = 0
-    for i in str:
-        length += 1
-    return length
+	Returns
+	----------
+	The length (int)
+	'''
+	length = 0
+	for i in str:
+		length += 1
+	return length

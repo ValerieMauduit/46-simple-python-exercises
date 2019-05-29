@@ -25,58 +25,57 @@ both encode and decode texts written in English.'''
 import string
 
 def merge_dicts(d1, d2):
-    '''
-    This function takes two dictionaries and merges them
+	'''
+	This function takes two dictionaries and merges them
 
-    Parameters
-    ----------
-    d1 (dict)
-    d2 (dict)
+	Parameters
+	----------
+	d1 (dict)
+	d2 (dict)
 
-    Returns
-    ----------
-    The merged dictionary
-    '''
-    d = d1.copy()
-    d.update(d2)
-    return d
+	Returns
+	----------
+	The merged dictionary
+	'''
+	d = d1.copy()
+	d.update(d2)
+	return d
 
 def create_key(n):
-    '''
-    This function rotates the alphabet by n places
+	'''
+	This function rotates the alphabet by n places
 
-    Parameters
-    ----------
-    n (int)
+	Parameters
+	----------
+	n (int)
 
-    Returns
-    ----------
-    A dictionary
-    '''
-    lower_lst = list(string.ascii_lowercase)
-    lower_lst2 = lower_lst[n:] + lower_lst[:n]
-    upper_lst = list(string.ascii_uppercase)
-    upper_lst2 = upper_lst[n:] + upper_lst[:n]
+	Returns
+	----------
+	A dictionary
+	'''
+	lower_lst = list(string.ascii_lowercase)
+	lower_lst2 = lower_lst[n:] + lower_lst[:n]
+	upper_lst = list(string.ascii_uppercase)
+	upper_lst2 = upper_lst[n:] + upper_lst[:n]
 
-    d1 = dict(zip(lower_lst, lower_lst2))
-    d2 = dict(zip(upper_lst, upper_lst2))
+	d1 = dict(zip(lower_lst, lower_lst2))
+	d2 = dict(zip(upper_lst, upper_lst2))
 
-    return merge_dicts(d1, d2)
+	return merge_dicts(d1, d2)
 
 
 def rot13(str):
-    '''
-    This function takes a string and encodes or decodes it following the
-    Caesar cipher technique
+	'''
+	This function takes a string and encodes or decodes it following the
+	Caesar cipher technique
 
-    Parameters
-    ----------
-    str (string)
+	Parameters
+	----------
+	str (string)
 
-    Returns
-    ----------
-    The converted string
-    '''
-    key = create_key(13)
-    return ''.join([key[c] if c in key else c for c in str])
-    
+	Returns
+	----------
+	The converted string
+	'''
+	key = create_key(13)
+	return ''.join([key[c] if c in key else c for c in str])

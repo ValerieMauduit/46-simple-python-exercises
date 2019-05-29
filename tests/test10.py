@@ -10,19 +10,19 @@ lst3 = [4, 2, 42, 4.2]
 
 class TestOverlapping(unittest.TestCase):
 
-    def test_01(self):
-        result = overlapping(lst1, lst2)
-        self.assertEqual(result, False)
+	def test_01(self):
+		result = overlapping(lst1, lst2)
+		self.assertEqual(result, False)
 
-    def test_02(self):
-        result = overlapping(lst1, lst3)
-        self.assertEqual(result, True)
+	def test_02(self):
+		result = overlapping(lst1, lst3)
+		self.assertEqual(result, True)
 
-    def test_03(self):
-        result = overlapping(lst2, lst3)
-        self.assertEqual(result, True)
+	def test_03(self):
+		result = overlapping(lst2, lst3)
+		self.assertEqual(result, True)
 
-    def test_bad_type(self):
-        data = 'banana'
-        with self.assertRaises(TypeError):
-            result = overlapping(data)
+	def test_bad_type(self):
+		data = 'banana'
+		with self.assertRaises(TypeError):
+			result = overlapping(data)

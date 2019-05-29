@@ -5,16 +5,16 @@ For example, generate_n_chars(5,"x") should return the string "xxxxx".
 will evaluate to "xxxxx". '''
 
 def generate_n_chars(n, c):
-    '''
-    This function generates n times the c character
+	'''
+	This function generates n times the c character
 
-    Parameters
-    ----------
-    n (int): a number
-    c (string of length 1): a character
+	Parameters
+	----------
+	n (int): a number
+	c (string of length 1): a character
 
-    Returns
-    ----------
-    A string of n characters long, consisting only of c
-    '''
-    return n * c
+	Returns
+	----------
+	A string of n characters long, consisting only of c
+	'''
+	return n * c

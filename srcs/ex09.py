@@ -5,17 +5,17 @@ False otherwise.
 exercise you should pretend Python did not have this operator.)'''
 
 def is_member(x, a):
-    '''
-    This function checks if a value x is a member of a list of values a
+	'''
+	This function checks if a value x is a member of a list of values a
 
-    Parameters
-    ----------
-    x (string, int, float): a value
-    a (list): a list of values
+	Parameters
+	----------
+	x (string, int, float): a value
+	a (list): a list of values
 
-    Returns
-    ----------
-    True if x is in the list a
-    False otherwise
-    '''
-    return x in a
+	Returns
+	----------
+	True if x is in the list a
+	False otherwise
+	'''
+	return x in a

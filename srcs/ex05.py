@@ -7,18 +7,18 @@ For example, translate("this is fun") should return the string
 from string import ascii_letters
 
 def translate(txt):
-    '''
-    This function translates a given text into "robber's language"
-    that is a swedish game where you double every consonant
-    and place an occurrence of "o" in between
+	'''
+	This function translates a given text into "robber's language"
+	that is a swedish game where you double every consonant
+	and place an occurrence of "o" in between
 
-    Parameters
-    ----------
-    txt (string): the input text
+	Parameters
+	----------
+	txt (string): the input text
 
-    Returns
-    ----------
-    Translated text
-    '''
-    consonants = set(ascii_letters) - set('aeiouAEIOU')
-    return ''.join([l+'o'+l if l in consonants else l for l in txt])
+	Returns
+	----------
+	Translated text
+	'''
+	consonants = set(ascii_letters) - set('aeiouAEIOU')
+	return ''.join([l+'o'+l if l in consonants else l for l in txt])

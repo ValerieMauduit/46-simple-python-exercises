@@ -2,15 +2,15 @@
 For example, reverse("I am testing") should return the string "gnitset ma I".'''
 
 def reverse(txt):
-    '''
-    This function computes the reversal of a string
+	'''
+	This function computes the reversal of a string
 
-    Parameters
-    ----------
-    txt (string)
+	Parameters
+	----------
+	txt (string)
 
-    Returns
-    ----------
-    The reversed string
-    '''
-    return txt[::-1]
+	Returns
+	----------
+	The reversed string
+	'''
+	return txt[::-1]
