@@ -18,4 +18,8 @@ def is_member(x, a):
 	True if x is in the list a
 	False otherwise
 	'''
-	return x in a
+
+	for n in a:
+		if x == n:
+			return True
+	return False
