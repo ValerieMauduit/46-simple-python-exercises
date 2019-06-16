@@ -5,19 +5,19 @@ how many they are? Write a function max_in_list() that takes a list of numbers
 and returns the largest one.'''
 
 def max_in_list(lst):
-	'''
-	This function takes a list of numbers and returns the largest one
+  '''
+  This function takes a list of numbers and returns the largest one
 
-	Parameters
-	----------
-	lst (list of integers or floats)
+  Parameters
+  ----------
+  lst (list of integers or floats)
 
-	Returns
-	----------
-	The largest of the numbers
-	'''
-	max = 0
-	for n in lst:
-		if n > max:
-			max = n
-	return max
+  Returns
+  ----------
+  The largest of the numbers
+  '''
+  max = 0
+  for n in lst:
+    if n > max:
+      max = n
+  return max

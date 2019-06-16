@@ -12,17 +12,17 @@ Tip: Use regular expressions!'''
 import re
 
 def correct(str):
-	'''
-	This function inserts extra spaces or remove double spaces if needed
-	in a given sentence
+  '''
+  This function inserts extra spaces or remove double spaces if needed
+  in a given sentence
 
-	Parameters
-	----------
-	str (string)
+  Parameters
+  ----------
+  str (string)
 
-	Returns
-	----------
-	A corrected string
-	'''
-	clean = re.sub(r'\s+', ' ', str)
-	return re.sub(r'\.([a-zA-Z])', r'. \1', clean)
+  Returns
+  ----------
+  A corrected string
+  '''
+  clean = re.sub(r'\s+', ' ', str)
+  return re.sub(r'\.([a-zA-Z])', r'. \1', clean)
