@@ -8,13 +8,12 @@ Torbjörn Lager's 46 Simple Python Exercises
 
 Description found [here](http://easyprog99.blogspot.com/2017/02/46-simple-python-exercises.html).
 
+Goal is to complete at least 4 exercises a week in order to continue practicing Python programming and to continue improving.
+
 ## Table of Contents
 
 - [Exercise list](#exercise-list)
-- [Motivation](#motivation)
-- [Getting Started](#getting-started)
-	- [Prerequisites](#prerequisites)
-	- [Installing](#installing)
+- [Prerequisites](#prerequisites)
 - [Test](#test)
 - [Acknowledgements](#acknowledgements)
 - [Contributing](#contributing)
@@ -34,33 +33,13 @@ Description found [here](http://easyprog99.blogspot.com/2017/02/46-simple-python
 |[09 member](srcs/ex09.py) |[19 beer](srcs/ex19.py)|  |  |  |
 |[10 overlapping](srcs/ex10.py)|[20 translate](srcs/ex20.py)|  |  |  |
 
-## Motivation
-
-Goal is to complete at least 4 exercises a week in order to continue practicing Python programming and to continue improving.
-
-
-## Getting Started
 
 ### Prerequisites
 
 * Python (Python 3.3 or greater, or Python 2.7)
+* I also test my code in [IPython](https://ipython.org/install.html) during writing process.
 
-### Installing
-
-
-1. In the terminal go to an appropriate folder where you want to clone this repo and run:
-```
-git clone https://github.com/rrsw/46-simple-python-exercises/
-```
-
-2. Then move to the newly created directory:
-```
-cd 46-simple-python-exercises/
-```
-
-I also test my code in [IPython](https://ipython.org/install.html) during writing process.
-
-## Test
+### Test
 
 I wrote some automated tests for each exercise. My tests are quite simple for the moment. Don't hesitate to use them. You may need to modifiy the python test files if your layout, your function names and your source file names are different than mine.
 
@@ -69,18 +48,17 @@ Below is my project layout:
 ```
 ├── __init__.py
 ├── .travis.yml			# travis config
-├── test.py			# test script
-├── /srcs			# directory to group all the source files
+├── srcs			# directory to group all the source files
 │   ├── __init__.py
 │   ├── ex01.py			# one file per exercise
 │   ├── ex02.py
 │   ├── ex03.py
 │   └── ...
-└── /tests			# directory to group all the test files
+└── tests			# directory to group all the test files
     ├── __init__.py
-    ├── test01.py		# one test file per exercise file
-    ├── test02.py
-    ├── test03.py
+    ├── test_01.py		# one test file per exercise file
+    ├── test_02.py
+    ├── test_03.py
     └── ...
 ```
 
