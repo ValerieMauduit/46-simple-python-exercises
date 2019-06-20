@@ -6,14 +6,14 @@ is nevertheless a good exercise.)
 I renamed max() as mymax() to avoid conflict with the built-in function.'''
 
 def mymax(n1, n2):
-	'''
-	This function takes two numbers as arguments and returns the largest of them
+  '''
+  This function takes two numbers as arguments and returns the largest of them
 
-	Parameters
-	----------
-	n1 (int or float): first number
-	n2 (int or float): second number
-
+  Parameters
+  ----------
+  n1 (int or float): first number
+  n2 (int or float): second number
+  
 	Returns
 	----------
 	The largest of the two numbers

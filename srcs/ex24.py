@@ -14,22 +14,22 @@ that you must not expect them to work for all cases.
 Tip: Check out the string method endswith().'''
 
 def make_3sg_form(v):
-	'''
-	This function takes a verb in infinitive form and returns its third
-	person singular form
+  '''
+  This function takes a verb in infinitive form and returns its third
+  person singular form
 
-	Parameters
-	----------
-	v (string): a verb in infinitive form
+  Parameters
+  ----------
+  v (string): a verb in infinitive form
 
-	Returns
-	----------
-	verb in its third person singular form
-	'''
-	if not isinstance(v, str):
-		raise TypeError('This function requires a string.')
-	if v.endswith('y'):
-		return v[:-1] + 'ies'
-	elif v.endswith(('o', 'ch', 's', 'sh', 'x', 'z')):
-		return v + 'es'
-	return v + 's'
+  Returns
+  ----------
+  verb in its third person singular form
+  '''
+  if not isinstance(v, str):
+    raise TypeError('This function requires a string.')
+  if v.endswith('y'):
+    return v[:-1] + 'ies'
+  elif v.endswith(('o', 'ch', 's', 'sh', 'x', 'z')):
+    return v + 'es'
+  return v + 's'

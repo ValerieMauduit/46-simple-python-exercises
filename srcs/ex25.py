@@ -15,29 +15,29 @@ However, you must not expect such simple rules to work for all cases.'''
 from ex04 import is_vowel
 
 def make_ing_form(v):
-	'''
-	This function takes a verb in infinitive form and returns its
-	present participle form
+  '''
+  This function takes a verb in infinitive form and returns its
+  present participle form
 
-	Parameters
-	----------
-	v (string): a verb in infinitive form
+  Parameters
+  ----------
+  v (string): a verb in infinitive form
 
-	Returns
-	----------
-	verb in its present participle form
-	'''
-	#if not isinstance(v, str):
-	#	raise TypeError('This function requires a string.')
-	
-	exceptions = ('be', 'see', 'flee', 'knee')
-	if v.endswith('ie'):
-		return v[:-2] + 'ying'
-	elif v.endswith('e') and v not in exceptions:
-		return v[:-1] + 'ing'
-	#elif not is_vowel(v[-3]) and is_vowel(v[-2]) and not is_vowel(v[-1]):
-	#	return v + v[-1] + 'es'
-	return v + 'ing'
+  Returns
+  ----------
+  verb in its present participle form
+  '''
+  #if not isinstance(v, str):
+  #	raise TypeError('This function requires a string.')
+
+  exceptions = ('be', 'see', 'flee', 'knee')
+  if v.endswith('ie'):
+    return v[:-2] + 'ying'
+  elif v.endswith('e') and v not in exceptions:
+    return v[:-1] + 'ing'
+  #elif not is_vowel(v[-3]) and is_vowel(v[-2]) and not is_vowel(v[-1]):
+  #	return v + v[-1] + 'es'
+  return v + 'ing'
 
 print(make_ing_form('flee'))
 print(make_ing_form('lie'))
